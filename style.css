@@ -1,0 +1,92 @@
+body {
+  background-color: #ccc;
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+nav{
+  border:2px solid black;
+  background-color: rgb(64,98,49);
+}
+.left{
+  width: 15vw;
+}
+.center{
+
+  width: 70vw;
+}
+.right{
+
+  width: 15vw;
+}
+
+ul {
+  padding-left: 0px;
+  margin-top: 0px;
+}
+ul li {
+  list-style-type:none;
+}
+.thumbnail {
+  height: 2em;
+  width: 2em;
+}
+
+.small-text {
+  display: flex;
+  align-items: center;
+}
+
+.picture {
+  width: 150px;
+  height: 200px;
+}
+
+.center-text {
+  display: flex;
+  align-items: flex-start;
+  background-color: white;
+  margin-top: 2em;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.right-icon {
+  font-size: 45px;
+  margin-top: 0.5em;
+  text-align: center;
+}
+
+.globe {
+  font-size: 45px;
+}
+.user {
+  display: flex;
+  font-size: 25px;
+  width: 50vw;
+  align-items:  flex-end;
+  flex-direction: column;
+}
+.navg {
+  display: flex;
+}
+.globe-content {
+  width:50vw;
+  display: flex;
+  justify-content: flex-start;
+}
+.account {
+  margin: 0px;
+}
+.account-img{
+  padding-right: 2em;
+}
+.center-text p {
+  padding-left: 8px;
+  padding-right: 8px;
+}
